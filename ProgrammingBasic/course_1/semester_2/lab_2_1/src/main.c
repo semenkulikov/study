@@ -77,10 +77,13 @@ int main(void) {
     bitset_destroy(&B);
     bitset_destroy(&C);
     bitset_destroy(&D);
+
     bitset_destroy(&unionAB);
     bitset_destroy(&interCD);
+
     bitset_destroy(&diff1);
     bitset_destroy(&diff2);
+    
     bitset_destroy(&interAD);
     bitset_destroy(&union2);
     bitset_destroy(&result);
